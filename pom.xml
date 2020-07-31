@@ -9,6 +9,7 @@
 		<module>lab1</module>
 		<module>ThreadingLab</module>
 		<module>DatabaseLab</module>
+		<module>SerializationLab</module>
 	</modules>
 
 	<properties>
