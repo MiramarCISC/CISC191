@@ -24,7 +24,7 @@ public class ThreadTest2 {
 
     /**
      * Adds x to total.  This method is synchronized so that it can be safely used by
-     * several different threads. Merge conflict!
+     * several different threads.
      */
     synchronized private static void addToTotal(int x) {
         total = total + x;
