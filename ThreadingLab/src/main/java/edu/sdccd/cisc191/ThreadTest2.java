@@ -24,11 +24,13 @@ public class ThreadTest2 {
 
     /**
      * Adds x to total.  This method is synchronized so that it can be safely used by
-     * several different threads. TODO: test synchronized block here
+     * several different threads. TODO: converted synchronized method to block for demo purpose temporarily
      */
-    synchronized private static void addToTotal(int x) {
-        total = total + x;
-        System.out.println(total + " primes found so far.");
+    private static void addToTotal(int x) {
+        synchronized(ThreadTest2.class) {
+            total = total + x;
+            System.out.println(total + " primes found so far.");
+        }
     }
 
     /**
