@@ -56,7 +56,7 @@ public class ThreadTest2 {
     /**
      * Counts the primes in the range from (START+1) to (2*START), using a specified number
      * of threads.  The total elapsed time is printed.
-     * @param numberOfThreads
+     * @param numberOfThreads specify the number of threads desired
      */
     private static void countPrimesWithThreads(int numberOfThreads) {
         int increment = START/numberOfThreads;
@@ -75,6 +75,7 @@ public class ThreadTest2 {
                     worker[i].join();
                 }
                 catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
