@@ -12,13 +12,13 @@ class CustomerTest {
 
     @org.junit.jupiter.api.Test
     void getCustomer() {
-        assertEquals(customer.toString(), "Test User");
+        assertEquals(customer.toString(), "Customer[id=1, firstName='Test', lastName='User']");
     }
 
     @org.junit.jupiter.api.Test
     void setCustomer() {
         customer.setFirstName("User");
         customer.setLastName("Test");
-        assertEquals(customer.toString(), "User Test");
+        assertEquals(customer.toString(), "Customer[id=1, firstName='User', lastName='Test']");
     }
 }
