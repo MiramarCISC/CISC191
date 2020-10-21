@@ -124,7 +124,7 @@ public class ThreadTest4 {
 
     /**
      * Gets the number of tasks from the user and counts primes using that many tasks.
-     * @param args
+     * @param args None
      */
     public static void main(String[] args) {
         int processors = Runtime.getRuntime().availableProcessors();

@@ -86,6 +86,7 @@ public class ThreadTest2 {
 
     /**
      * Gets the number of threads from the user and counts primes using that many threads.
+     * @param args None
      */
     public static void main(String[] args) {
         int processors = Runtime.getRuntime().availableProcessors();
