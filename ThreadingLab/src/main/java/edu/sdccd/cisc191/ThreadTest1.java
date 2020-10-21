@@ -34,6 +34,7 @@ public class ThreadTest1 {
     /**
      * Start several CountPrimesThreads.  The number of threads, between 1 and 25,
      * is specified by the user.
+     * @param args None
      */
     public static void main(String[] args) {
         int numberOfThreads = 0;
