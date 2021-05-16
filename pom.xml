@@ -10,6 +10,7 @@
 		<module>ThreadingLab</module>
 		<module>DatabaseLab</module>
 		<module>SerializationLab</module>
+		<module>StreamAPILab</module>
 	</modules>
 
 	<properties>
